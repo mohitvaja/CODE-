@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM1</title>
+        <style>
+        .form{
+            background-color: red;
+            border: 2px;
+            border-radius: 10px;
+            width: 30%;
+            padding: 30px;
+            margin: 15px;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: sans-serif;
+        }
+          
+        
+        input{
+            border: 1px solid;
+           width: 40%;
+            border-radius: 5px;
+            margin: 5px;
+            font-family: sans-serif;
+            padding: 5px;
+        }
+
+        button{
+         
+            top: 50%;
+            background-color: #0a0a23;
+            color: #fff;
+            padding: 15px;
+            border: none;
+            min-height: 10px;
+            min-width: 80px;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+           
+        }
+        button:hover{
+            top: 50%;
+            background-color: yellow;
+            color: black;
+            padding: 15px;
+            border: none;
+            min-height: 10px;
+            min-width: 80px;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        </style>
+    </head>
+    <body>
+        <form action="">
+          <div class="form">
+           <h1>Collage Form</h1>
+           <span>First Name:</span>&nbsp;
+           <input type="text" autofocus placeholder="Enter First Name Here..." maxlength="12"><br>
+           <span>Last Name:</span>&nbsp;
+           <input type="text" autofocus placeholder="Enter Last Name Here..." maxlength="12"><br>
+           <span>Email-Id:</span>&nbsp;
+           <input type="Email" autofocus placeholder="Enter Your Email Here..." maxlength="12"><br>
+           <br>
+           
+           Date<input type="date"><br>
+           Time<input type="time"><br>
+           <br>
+           <span>What's your class teacher name?</span><br>
+           <input type="checkbox" name="Name1" style="width: auto;">Name1<br>
+           <input type="checkbox" name="Name2" style="width: auto;">Name2<br>
+           <input type="checkbox" name="Name3" style="width: auto;">Name3<br>
+           <input type="checkbox" name="Name4" style="width: auto;">Name4<br>
+
+           <input type="range"><br> 
+           <fieldset>
+            <legend>Branch</legend>
+            <input type="radio" id="G1" name="action" value="IT" style="width: auto;"><label for="IT">IT</label><br>
+            <input type="radio" id="G2" name="action" value="Computer" style="width: auto;"><span>Computer</span><br>
+           </fieldset> 
+
+           <fieldset>
+            <legend>SignIn</legend>
+            <span>Username:</span>
+            <input type="text"  autofocus placeholder="Enter User Name Here..." maxlength="12"><br>
+            <span>Password:</span>
+            <input type="password" autofocus placeholder="Enter Your Password Here..." maxlength="12"><br>
+            <button>Login</button>
+
+           </fieldset>
+
+
+          </div>
+
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+/*div {
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-position: 200px;
+    background-size: 50%;
+    background-image: url(../images/women\ cricket.jpg);
+    font-size: 50px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+div:hover {}*/
+
+body {
+    background-color: aqua;
+}
+
+.service {}
+
+.service_img {}
+
+.service_details {}
